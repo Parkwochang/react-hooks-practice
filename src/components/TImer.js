@@ -5,9 +5,11 @@ const Timer = () => {
     const timer = setInterval(() => {
       console.log("타이머 돌아가는중 ...");
     }, 1000);
+    //timer가 mount 될때
     return () => {
       clearInterval(timer);
     };
+    //timer가 unmount 될 때
   }, []);
 
   return (

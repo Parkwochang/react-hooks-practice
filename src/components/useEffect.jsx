@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Timer from "./TImer";
 
 export default function UseEffect() {
