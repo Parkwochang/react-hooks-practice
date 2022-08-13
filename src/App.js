@@ -4,6 +4,7 @@ import UseEffect from "./components/useEffect";
 import UseRef from "./components/useRef";
 import UseRefDom from "./components/useRef_Dom";
 import UseContext from "./components/useContext";
+import UseMemo from "./components/useMemo";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <UseRef />
       <UseRefDom />
       <UseContext />
+      <UseMemo />
     </div>
   );
 }
