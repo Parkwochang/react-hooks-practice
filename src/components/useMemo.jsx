@@ -23,8 +23,9 @@ export default function UseMemo() {
         onChange={(e) => setNumber(e.target.value)}
       />
       <hr />
+      <br />
       <h2>어느 나라에 왔어요?</h2>
-      <p>나라: {location}</p>
+      <p>나라: {location.country}</p>
       <button onClick={() => setIsKorea(!isKorea)}>비행기 타자</button>
     </div>
   );

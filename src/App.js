@@ -11,11 +11,17 @@ function App() {
   return (
     <div>
       <UseStateHooks />
+      <br />
       <UseEffect />
+      <br />
       <UseRef />
+      <br />
       <UseRefDom />
+      <br />
       <UseContext />
-      {/* <UseMemo /> */}
+      <br />
+      <UseMemo />
+      <br />
       <UseCallbcak />
     </div>
   );
