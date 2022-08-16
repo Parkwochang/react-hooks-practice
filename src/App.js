@@ -1,5 +1,4 @@
 import React from "react";
-import UseStateHooks from "./components/useState";
 import UseEffect from "./components/useEffect";
 import UseRef from "./components/useRef";
 import UseRefDom from "./components/useRef_Dom";
@@ -11,7 +10,6 @@ import UseReducer from "./useReducer";
 function App() {
   return (
     <div style={{ margin: "30px" }}>
-      <UseStateHooks />
       <br />
       <UseEffect />
       <br />
