@@ -6,10 +6,11 @@ import UseRefDom from "./components/useRef_Dom";
 import UseContext from "./components/useContext";
 import UseMemo from "./components/useMemo";
 import UseCallbcak from "./components/useCallback";
+import UseReducer from "./useReducer";
 
 function App() {
   return (
-    <div>
+    <div style={{ margin: "30px" }}>
       <UseStateHooks />
       <br />
       <UseEffect />
@@ -23,6 +24,8 @@ function App() {
       <UseMemo />
       <br />
       <UseCallbcak />
+      <br />
+      <UseReducer />
     </div>
   );
 }
