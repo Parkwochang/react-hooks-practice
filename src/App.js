@@ -6,6 +6,7 @@ import UseContext from "./components/useContext";
 import UseMemo from "./components/useMemo";
 import UseCallbcak from "./components/useCallback";
 import UseReducer from "./useReducer";
+import ReactMemo from "./reactMemo";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <UseCallbcak />
       <br />
       <UseReducer />
+      <br />
+      <ReactMemo />
     </div>
   );
 }
